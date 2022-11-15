@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="13sp"
+    android:paddingRight="13sp"
+    android:paddingTop="4sp"
+    android:paddingBottom="4sp"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:gravity="center"
+    android:background="@color/white"
+    >
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_weight="0.5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" >
+        <ImageView
+            android:id="@+id/icon"
+            android:src="@drawable/bitcoin"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_weight="0.5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/name"
+            android:text="Bitcoin"
+            android:gravity="bottom"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/rate"
+            android:text="40000"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_weight="1"
+        android:text="K20000"
+        android:textSize="24dp"
+        android:layout_width="0dp"
+        android:gravity="right"
+        android:paddingHorizontal="@dimen/profile_padding"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>

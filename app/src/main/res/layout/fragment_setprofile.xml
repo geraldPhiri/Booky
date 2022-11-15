@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:background="@drawable/background"
+      android:weightSum="1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="0.07">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:gravity="center"
+          >
+        <TextView
+            android:text="@string/profile"
+            android:textSize="@dimen/balancetxt"
+            android:fontFamily="@font/roboto_light"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+      </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="0.93"
+        android:background="@drawable/white_cornered_rect"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+      <include layout="@layout/profile_set_details" />
+
+
+    </RelativeLayout>
+
+  </LinearLayout>
+
+
+</ScrollView>

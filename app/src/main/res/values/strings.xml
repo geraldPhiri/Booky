@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Booky</string>
+    <string name="wallet">wallet</string>
+    <string name="setting">setting</string>
+    <string name="home">home</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="create_account">Create an account</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="hv_account">I have an account already</string>
+    <string name="signup">Sign up</string>
+    <string name="next_verify">Next</string>
+    <string name="login_statement_sms">By logging in, you confirm that you agree to our <u>Terms of Service</u> and <u>Privacy Policy</u>. You will receive an SMS to confirm your mobile number. SMS fee may apply.</string>
+    <string name="string_name">Name</string>
+
+    <string name="age_string">Age</string>
+    <string name="string_cancel">Cancel</string>
+    <string name="login_enter_code">Enter your code</string>
+
+    <string name="edit_profile">Edit Profile</string>
+    <string name="profile_preview">Profile Preview</string>
+    <string name="edit_profile_picture_subtitle">Press and drag to sort your photos.</string>
+    <string name="edit_profile_school_default">Add School</string>
+    <string name="edit_profile_name_empty_tips">This can’t be left blank</string>
+    <string name="edit_profile_about_me_title">About</string>
+    <string name="edit_profile_about_me_default">Share something interesting about you</string>
+
+    <string name="login_btn_phone">Connect with Phone Number</string>
+    <string name="meet_nfun_npeople_nnow">Meet\nFun\nPeople\nNow</string>
+    <string name="log_into_holala">Log Into Booky</string>
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="send_sms_code">Send SMS code</string>
+
+    <string name="privac_polic"><u>Privacy Policy</u></string>
+    <string name="privac_polic_title">Privacy Policy</string>
+    <string name="terms_of_service"><u>Terms of Service</u></string>
+    <string name="terms_of_service_title">Terms of Service</string>
+
+    <string name="string_camera">Camera</string>
+    <string name="string_photo">Photo</string>
+    <string name="camera_perms_denied">Camera permission denied</string>
+    <string name="camera_perm_granted">Camera permission granted</string>
+    <string name="cs">PERMISSION READ EXTERNAL STORAGE GRANTED</string>
+    <string name="csdd">PERMISSION READ EXTERNAL STORAGE DENIED</string>
+    <string name="cg">Choose gallery</string>
+    <string name="toast_image_change_succ_profile">Your Image Changing Successfully</string>
+
+
+
+    <string name="string_boy">Boy</string>
+    <string name="string_girtl">Girl</string>
+    <string name="string_confirm">Confirm</string>
+    <string name="string_gender">Gender</string>
+    <string name="string_birthday">Birthday</string>
+    <string name="un13">You are under 18.</string>
+    <string name="upload_clear_avatar">Upload a clear picture.</string>
+    <string name="string_good">Good</string>
+    <string name="string_bad">Bad</string>
+    <string name="me_preview_entrance">Preview My Profile</string>
+    <string name="lcancl">Login Cancel</string>
+    <string name="lod_phone">Verification phone number…</string>
+    <string name="pd_uplod_photo">Uploading photo…</string>
+    <string name="entyname">Please enter your name</string>
+    <string name="greater6name">your name should be Greater than 6</string>
+    <string name="sutitl_splash"></string>
+    <string name="veif_fealed_phone">Verification Failed, please try again.</string>
+    <string name="very_otp">There was an error verifying OTP</string>
+    <string name="plnmpho">Please enter your number phone</string>
+    <string name="auth_success">Authentication Success</string>
+    <string name="vercodenovalid">The verification code entered was invalid</string>
+    <string name="enter_verifi_code">Please enter verify code.</string>
+
+    <string name="login_enter_mobile">Enter your mobile number</string>
+    <string name="login_input_resent">Resend code</string>
+
+
+    <string name="phone">Phone</string>
+    <string name="balance">BALANCE</string>
+    <string name="transactions">Transactions</string>
+    <string name="notifications">Notifications</string>
+    <string name="profile">Profile</string>
+    <string name="full_name">Full Name</string>
+    <string name="change">Change</string>
+    <string name="more">More</string>
+    <string name="verify">Verify</string>
+    <string name="code">Code</string>
+    <string name="about">ABOUT</string>
+    <string name="currency">Currency</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="support">Support</string>
+    <string name="app">APP</string>
+    <string name="surname">Surname</string>
+    <string name="first_name">First name</string>
+    <string name="submit">SUBMIT</string>
+    <string name="sell_send">Sell/Send</string>
+    <string name="buy">Buy</string>
+    <string name="o_op">You\'re a new user? Sign up</string>
+    <string name="welcome">Welcome</string>
+    <string name="hint_pass">Enter Password</string>
+    <string name="otp">OTP</string>
+    <string name="tickets">tickets</string>
+    <string name="history">history</string>
+</resources>
